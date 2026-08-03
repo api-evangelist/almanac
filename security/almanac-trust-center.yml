@@ -1,0 +1,20 @@
+generated: '2026-07-17'
+method: searched
+probe: true
+source: https://trust.almanac.chat
+url: https://trust.almanac.chat
+platform: Vanta Trust Center
+# The trust center is a real, verified public surface (Vanta-hosted). Its detailed
+# certification list is rendered client-side (JavaScript) and was not machine-extractable
+# at probe time, so no named certifications are asserted here to avoid fabrication.
+# Almanac Health's public materials describe an EHR-integrated platform operating "under
+# institutional governance and controls"; specific SOC 2 / HIPAA / ISO attestations were
+# not verifiable verbatim from the trust center at capture time.
+certifications: []
+evidence:
+- source: https://trust.almanac.chat
+  kind: trust-center
+  detail: Vanta-hosted Trust Center for Almanac Health (JS-rendered; certification list not machine-extractable)
+- source: https://almanac.chat
+  kind: governance-claim
+  detail: 'Company describes the platform as "governed by institutional controls" and grounded in peer-reviewed evidence'
